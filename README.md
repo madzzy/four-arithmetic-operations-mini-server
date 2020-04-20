@@ -56,9 +56,7 @@ fetch("http://localhost:5000/divide", { <br>
       }})<br>
 응답: statusCode(201) <br>
 response.end(JSON.stringify(0.8))<br>
-
 <br>
 <br>
-
 ## 클라이언트(client)
 index.html 파일 열기
