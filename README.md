@@ -1,4 +1,3 @@
-# four-arithmetic-operations-mini-server
 # 사칙연산을 하는 미니 server
 서버를 켠 후 client - index.html에서
 숫자를 입력하면 서버에서 사칙연산을 수행합니다.
