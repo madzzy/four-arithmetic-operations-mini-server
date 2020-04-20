@@ -1,11 +1,11 @@
 <br>
-# 사칙연산을 하는 미니 server
+# 사칙연산을 하는 미니 server <br>
 서버를 켠 후 client - index.html에서
 숫자를 입력하면 서버에서 사칙연산을 수행합니다.
 <br>
 <br>
-## 서버(server)
-### 서버 정보
+## 서버(server) <br>
+### 서버 정보 <br>
 ip='localhost', port=5000 <br>
 주소: http://localhost:5000 <br>
 <br>
