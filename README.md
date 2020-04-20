@@ -12,22 +12,50 @@ ip='localhost', port=5000 <br>
 터미널에 아래의 명령어를 입력합니다. <br>
 node server/no-express-server.js <br>
 ### API문서
-method **'POST'** <br>
-1. '/add' : 더하기 <br>
-Example <br>
+**method POST'** <br>
+**1. '/add' : 더하기** <br>
 요청: <br>
-fetch(`http://localhost:5000/add`, { <br>
+fetch("http://localhost:5000`/add`", { <br>
       method: 'POST', <br>
       body: JSON.stringify({ a: 12, b: 15 }), <br>
       headers: { <br> 
         'content-type': 'text/json' <br>
-      } <br>
- })<br>
-응답: <br>
+      }})<br>
+응답: statusCode(201)  <br>
+response.end(JSON.stringify(27))<br>
 
-2. '/subtract' : 빼기
-3. '/multiply' : 곱하기
-4. '/divide' : 나누기
+**2. '/subtract' : 빼기**  <br>
+요청: <br>
+fetch("http://localhost:5000`/subtract`", { <br>
+      method: 'POST', <br>
+      body: JSON.stringify({ a: 12, b: 15 }), <br>
+      headers: { <br> 
+        'content-type': 'text/json' <br>
+      }})<br>
+응답: statusCode(201) <br>
+response.end(JSON.stringify(-3))<br>
+
+**3. '/multiply' : 곱하기** <br>
+요청: <br>
+fetch("http://localhost:5000`/multiply`", { <br>
+      method: 'POST', <br>
+      body: JSON.stringify({ a: 12, b: 15 }), <br>
+      headers: { <br> 
+        'content-type': 'text/json' <br>
+      }})<br>
+응답: statusCode(201) <br>
+response.end(JSON.stringify(180))<br>
+
+**4. '/divide' : 나누기** <br>
+요청: <br>
+fetch("http://localhost:5000`/divide`", { <br>
+      method: 'POST', <br>
+      body: JSON.stringify({ a: 12, b: 15 }), <br>
+      headers: { <br> 
+        'content-type': 'text/json' <br>
+      }})<br>
+응답: statusCode(201) <br>
+response.end(JSON.stringify(0.8))<br>
 
 <br>
 <br>
