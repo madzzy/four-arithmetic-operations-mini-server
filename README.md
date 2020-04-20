@@ -8,11 +8,9 @@
 ### 서버 정보 <br>
 ip='localhost', port=5000 <br>
 주소: http://localhost:5000 <br>
-<br>
-## 서버 구동하기
+### 서버 구동하기
 터미널에 아래의 명령어를 입력합니다. <br>
 node server/no-express-server.js <br>
-
 ### API문서
 method **'POST'** <br>
 1. '/add' : 더하기
