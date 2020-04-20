@@ -13,17 +13,17 @@ ip='localhost', port=5000 <br>
 node server/no-express-server.js <br>
 ### API문서
 method **'POST'** <br>
-1. '/add' : 더하기
-Example
-요청: 
-fetch(`http://localhost:5000/${path}`, {
-      method: 'POST',
-      body: JSON.stringify(body),
-      headers: {
-        'content-type': 'text/json'
-      }
- })
-응답:
+1. '/add' : 더하기 <br>
+Example <br>
+요청: <br>
+fetch(`http://localhost:5000/add`, { <br>
+      method: 'POST', <br>
+      body: JSON.stringify({ a: 12, b: 15 }), <br>
+      headers: { <br> 
+        'content-type': 'text/json' <br>
+      } <br>
+ })<br>
+응답: <br>
 
 2. '/subtract' : 빼기
 3. '/multiply' : 곱하기
