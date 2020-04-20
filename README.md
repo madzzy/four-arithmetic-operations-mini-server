@@ -29,11 +29,8 @@ fetch(`http://localhost:5000/${path}`, {
 3. '/multiply' : 곱하기
 4. '/divide' : 나누기
 
+<br>
+<br>
 
-
-<br>
-<br>
-<br>
 ## 클라이언트(client)
-***
 index.html 파일 열기
