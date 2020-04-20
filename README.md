@@ -1,15 +1,14 @@
+<br>
 # 사칙연산을 하는 미니 server
 서버를 켠 후 client - index.html에서
 숫자를 입력하면 서버에서 사칙연산을 수행합니다.
 <br>
 <br>
-<br>
 ## 서버(server)
-***
 ### 서버 정보
 ip='localhost', port=5000 <br>
 주소: http://localhost:5000 <br>
- <br>
+<br>
 ## 서버 구동하기
 터미널에 아래의 명령어를 입력합니다. <br>
 node server/no-express-server.js <br>
