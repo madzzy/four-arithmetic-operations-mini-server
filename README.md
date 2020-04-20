@@ -49,11 +49,11 @@ response.end(JSON.stringify(180))<br>
 **4. '/divide' : 나누기** <br>
 요청: <br>
 fetch("http://localhost:5000/divide", { <br>
-'&nbsp;''&nbsp;'      method: 'POST', <br>
-'&nbsp;''&nbsp;'      body: JSON.stringify({ a: 12, b: 15 }), <br>
-'&nbsp;''&nbsp;'     headers: { <br> 
-'&nbsp;''&nbsp;''&nbsp;''&nbsp;'        'content-type': 'text/json' <br>
-'&nbsp;''&nbsp;'      }})<br>
+      method: 'POST', <br>
+      body: JSON.stringify({ a: 12, b: 15 }), <br>
+      headers: { <br>
+            'content-type': 'text/json' <br>
+      }})<br>
 응답: statusCode(201) <br>
 response.end(JSON.stringify(0.8))<br>
 
